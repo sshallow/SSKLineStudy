@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		501C9EAE22705913001601AA /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 501C9EAD22705913001601AA /* Calculator.m */; };
+		50A9D03C2271AFEE000B2B65 /* SSStockChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A9D03B2271AFEE000B2B65 /* SSStockChart.m */; };
+		50A9D03F2271C1C3000B2B65 /* EModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A9D03E2271C1C3000B2B65 /* EModel.m */; };
+		50A9D0682271E9A1000B2B65 /* SSStockCharts.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A9D0672271E9A1000B2B65 /* SSStockCharts.m */; };
+		50C5F2D7226DBC9A0004276A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C5F2D6226DBC9A0004276A /* AppDelegate.m */; };
+		50C5F2DA226DBC9A0004276A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C5F2D9226DBC9A0004276A /* ViewController.m */; };
+		50C5F2DD226DBC9A0004276A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50C5F2DB226DBC9A0004276A /* Main.storyboard */; };
+		50C5F2DF226DBC9B0004276A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50C5F2DE226DBC9B0004276A /* Assets.xcassets */; };
+		50C5F2E2226DBC9B0004276A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50C5F2E0226DBC9B0004276A /* LaunchScreen.storyboard */; };
+		50C5F2E5226DBC9B0004276A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C5F2E4226DBC9B0004276A /* main.m */; };
+		50C5F2ED226DC13B0004276A /* SSStockScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C5F2EC226DC13B0004276A /* SSStockScrollView.m */; };
+		50C5F2F1226F09B40004276A /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C5F2EF226F09B40004276A /* Constants.m */; };
+		50C5F2F7226F20C90004276A /* NSObject+Rect.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C5F2F6226F20C90004276A /* NSObject+Rect.m */; };
+		50C5F2FA226F306C0004276A /* SSStockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C5F2F9226F306C0004276A /* SSStockView.m */; };
+		50C5F2FE227031E50004276A /* SSNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C5F2FC227031E50004276A /* SSNetwork.m */; };
+		50C5F301227032170004276A /* NSDictionary+createToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C5F300227032170004276A /* NSDictionary+createToken.m */; };
+		50C5F304227032340004276A /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C5F303227032340004276A /* NSString+MD5.m */; };
+		50C5F307227035D50004276A /* KLineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C5F306227035D50004276A /* KLineModel.m */; };
+		50C5F30D22704C260004276A /* SSStockConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C5F30C22704C260004276A /* SSStockConst.m */; };
+		52846CDFABC820692AA6B961 /* libPods-SSKLine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F22FF28E38B92BAEBC29CC95 /* libPods-SSKLine.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F6A040AE9435BE6FAEE0F6D /* Pods-SSKLine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSKLine.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SSKLine/Pods-SSKLine.debug.xcconfig"; sourceTree = "<group>"; };
+		501C9EAC22705913001601AA /* Calculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		501C9EAD22705913001601AA /* Calculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
+		50A9D03A2271AFEE000B2B65 /* SSStockChart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSStockChart.h; sourceTree = "<group>"; };
+		50A9D03B2271AFEE000B2B65 /* SSStockChart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSStockChart.m; sourceTree = "<group>"; };
+		50A9D03D2271C1C3000B2B65 /* EModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EModel.h; sourceTree = "<group>"; };
+		50A9D03E2271C1C3000B2B65 /* EModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EModel.m; sourceTree = "<group>"; };
+		50A9D0662271E9A1000B2B65 /* SSStockCharts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSStockCharts.h; sourceTree = "<group>"; };
+		50A9D0672271E9A1000B2B65 /* SSStockCharts.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSStockCharts.m; sourceTree = "<group>"; };
+		50C5F2D2226DBC9A0004276A /* SSKLine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSKLine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50C5F2D5226DBC9A0004276A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		50C5F2D6226DBC9A0004276A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		50C5F2D8226DBC9A0004276A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		50C5F2D9226DBC9A0004276A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		50C5F2DC226DBC9A0004276A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50C5F2DE226DBC9B0004276A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50C5F2E1226DBC9B0004276A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50C5F2E3226DBC9B0004276A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50C5F2E4226DBC9B0004276A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50C5F2EB226DC13B0004276A /* SSStockScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSStockScrollView.h; sourceTree = "<group>"; };
+		50C5F2EC226DC13B0004276A /* SSStockScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSStockScrollView.m; sourceTree = "<group>"; };
+		50C5F2EF226F09B40004276A /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		50C5F2F0226F09B40004276A /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		50C5F2F5226F20C90004276A /* NSObject+Rect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Rect.h"; sourceTree = "<group>"; };
+		50C5F2F6226F20C90004276A /* NSObject+Rect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Rect.m"; sourceTree = "<group>"; };
+		50C5F2F8226F306C0004276A /* SSStockView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSStockView.h; sourceTree = "<group>"; };
+		50C5F2F9226F306C0004276A /* SSStockView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSStockView.m; sourceTree = "<group>"; };
+		50C5F2FC227031E50004276A /* SSNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSNetwork.m; sourceTree = "<group>"; };
+		50C5F2FD227031E50004276A /* SSNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSNetwork.h; sourceTree = "<group>"; };
+		50C5F2FF227032170004276A /* NSDictionary+createToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+createToken.h"; sourceTree = "<group>"; };
+		50C5F300227032170004276A /* NSDictionary+createToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+createToken.m"; sourceTree = "<group>"; };
+		50C5F302227032340004276A /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		50C5F303227032340004276A /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		50C5F305227035D50004276A /* KLineModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLineModel.h; sourceTree = "<group>"; };
+		50C5F306227035D50004276A /* KLineModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLineModel.m; sourceTree = "<group>"; };
+		50C5F30B22704C260004276A /* SSStockConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSStockConst.h; sourceTree = "<group>"; };
+		50C5F30C22704C260004276A /* SSStockConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSStockConst.m; sourceTree = "<group>"; };
+		77AC1013AC1E35788D9276D2 /* Pods-SSKLine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSKLine.release.xcconfig"; path = "Pods/Target Support Files/Pods-SSKLine/Pods-SSKLine.release.xcconfig"; sourceTree = "<group>"; };
+		F22FF28E38B92BAEBC29CC95 /* libPods-SSKLine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SSKLine.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50C5F2CF226DBC9A0004276A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52846CDFABC820692AA6B961 /* libPods-SSKLine.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		009EBB621E9A17DE9ACAE3E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F22FF28E38B92BAEBC29CC95 /* libPods-SSKLine.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50A9D0392271AFDF000B2B65 /* learn */ = {
+			isa = PBXGroup;
+			children = (
+				50A9D03A2271AFEE000B2B65 /* SSStockChart.h */,
+				50A9D03B2271AFEE000B2B65 /* SSStockChart.m */,
+				50A9D03D2271C1C3000B2B65 /* EModel.h */,
+				50A9D03E2271C1C3000B2B65 /* EModel.m */,
+			);
+			path = learn;
+			sourceTree = "<group>";
+		};
+		50A9D0642271E958000B2B65 /* 原来 */ = {
+			isa = PBXGroup;
+			children = (
+				50C5F305227035D50004276A /* KLineModel.h */,
+				50C5F306227035D50004276A /* KLineModel.m */,
+				501C9EAC22705913001601AA /* Calculator.h */,
+				501C9EAD22705913001601AA /* Calculator.m */,
+				50C5F2F8226F306C0004276A /* SSStockView.h */,
+				50C5F2F9226F306C0004276A /* SSStockView.m */,
+				50C5F2EB226DC13B0004276A /* SSStockScrollView.h */,
+				50C5F2EC226DC13B0004276A /* SSStockScrollView.m */,
+			);
+			path = "原来";
+			sourceTree = "<group>";
+		};
+		50A9D0652271E97B000B2B65 /* char */ = {
+			isa = PBXGroup;
+			children = (
+				50A9D0662271E9A1000B2B65 /* SSStockCharts.h */,
+				50A9D0672271E9A1000B2B65 /* SSStockCharts.m */,
+			);
+			path = char;
+			sourceTree = "<group>";
+		};
+		50C5F2C9226DBC9A0004276A = {
+			isa = PBXGroup;
+			children = (
+				50C5F2D4226DBC9A0004276A /* SSKLine */,
+				50C5F2D3226DBC9A0004276A /* Products */,
+				61E7DCF7E5184D25354474CE /* Pods */,
+				009EBB621E9A17DE9ACAE3E8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		50C5F2D3226DBC9A0004276A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50C5F2D2226DBC9A0004276A /* SSKLine.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50C5F2D4226DBC9A0004276A /* SSKLine */ = {
+			isa = PBXGroup;
+			children = (
+				50C5F2D5226DBC9A0004276A /* AppDelegate.h */,
+				50C5F2D6226DBC9A0004276A /* AppDelegate.m */,
+				50C5F2D8226DBC9A0004276A /* ViewController.h */,
+				50C5F2D9226DBC9A0004276A /* ViewController.m */,
+				50C5F30822704BCE0004276A /* SSStockConst */,
+				50C5F2FB227031E50004276A /* SSNetwork */,
+				50C5F2EE226F09B40004276A /* Constants */,
+				50A9D0652271E97B000B2B65 /* char */,
+				50A9D0392271AFDF000B2B65 /* learn */,
+				50A9D0642271E958000B2B65 /* 原来 */,
+				50C5F2DB226DBC9A0004276A /* Main.storyboard */,
+				50C5F2DE226DBC9B0004276A /* Assets.xcassets */,
+				50C5F2E0226DBC9B0004276A /* LaunchScreen.storyboard */,
+				50C5F2E3226DBC9B0004276A /* Info.plist */,
+				50C5F2E4226DBC9B0004276A /* main.m */,
+			);
+			path = SSKLine;
+			sourceTree = "<group>";
+		};
+		50C5F2EE226F09B40004276A /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				50C5F2F5226F20C90004276A /* NSObject+Rect.h */,
+				50C5F2F6226F20C90004276A /* NSObject+Rect.m */,
+				50C5F302227032340004276A /* NSString+MD5.h */,
+				50C5F303227032340004276A /* NSString+MD5.m */,
+				50C5F2FF227032170004276A /* NSDictionary+createToken.h */,
+				50C5F300227032170004276A /* NSDictionary+createToken.m */,
+				50C5F2F0226F09B40004276A /* Constants.h */,
+				50C5F2EF226F09B40004276A /* Constants.m */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		50C5F2FB227031E50004276A /* SSNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				50C5F2FC227031E50004276A /* SSNetwork.m */,
+				50C5F2FD227031E50004276A /* SSNetwork.h */,
+			);
+			path = SSNetwork;
+			sourceTree = "<group>";
+		};
+		50C5F30822704BCE0004276A /* SSStockConst */ = {
+			isa = PBXGroup;
+			children = (
+				50C5F30B22704C260004276A /* SSStockConst.h */,
+				50C5F30C22704C260004276A /* SSStockConst.m */,
+			);
+			path = SSStockConst;
+			sourceTree = "<group>";
+		};
+		61E7DCF7E5184D25354474CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F6A040AE9435BE6FAEE0F6D /* Pods-SSKLine.debug.xcconfig */,
+				77AC1013AC1E35788D9276D2 /* Pods-SSKLine.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50C5F2D1226DBC9A0004276A /* SSKLine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50C5F2E8226DBC9B0004276A /* Build configuration list for PBXNativeTarget "SSKLine" */;
+			buildPhases = (
+				F324309F65E31DF35115AA3B /* [CP] Check Pods Manifest.lock */,
+				50C5F2CE226DBC9A0004276A /* Sources */,
+				50C5F2CF226DBC9A0004276A /* Frameworks */,
+				50C5F2D0226DBC9A0004276A /* Resources */,
+				62B10DEE28EC35267A13EACD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSKLine;
+			productName = SSKLine;
+			productReference = 50C5F2D2226DBC9A0004276A /* SSKLine.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50C5F2CA226DBC9A0004276A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = shangshuai;
+				TargetAttributes = {
+					50C5F2D1226DBC9A0004276A = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 50C5F2CD226DBC9A0004276A /* Build configuration list for PBXProject "SSKLine" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50C5F2C9226DBC9A0004276A;
+			productRefGroup = 50C5F2D3226DBC9A0004276A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50C5F2D1226DBC9A0004276A /* SSKLine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50C5F2D0226DBC9A0004276A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50C5F2E2226DBC9B0004276A /* LaunchScreen.storyboard in Resources */,
+				50C5F2DF226DBC9B0004276A /* Assets.xcassets in Resources */,
+				50C5F2DD226DBC9A0004276A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		62B10DEE28EC35267A13EACD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SSKLine/Pods-SSKLine-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SSKLine/Pods-SSKLine-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F324309F65E31DF35115AA3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SSKLine-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50C5F2CE226DBC9A0004276A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50C5F2F1226F09B40004276A /* Constants.m in Sources */,
+				50A9D03F2271C1C3000B2B65 /* EModel.m in Sources */,
+				50C5F2F7226F20C90004276A /* NSObject+Rect.m in Sources */,
+				50C5F304227032340004276A /* NSString+MD5.m in Sources */,
+				50C5F2FA226F306C0004276A /* SSStockView.m in Sources */,
+				50C5F2DA226DBC9A0004276A /* ViewController.m in Sources */,
+				50C5F307227035D50004276A /* KLineModel.m in Sources */,
+				50C5F30D22704C260004276A /* SSStockConst.m in Sources */,
+				50C5F301227032170004276A /* NSDictionary+createToken.m in Sources */,
+				50A9D0682271E9A1000B2B65 /* SSStockCharts.m in Sources */,
+				50C5F2E5226DBC9B0004276A /* main.m in Sources */,
+				50A9D03C2271AFEE000B2B65 /* SSStockChart.m in Sources */,
+				50C5F2ED226DC13B0004276A /* SSStockScrollView.m in Sources */,
+				50C5F2FE227031E50004276A /* SSNetwork.m in Sources */,
+				50C5F2D7226DBC9A0004276A /* AppDelegate.m in Sources */,
+				501C9EAE22705913001601AA /* Calculator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		50C5F2DB226DBC9A0004276A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50C5F2DC226DBC9A0004276A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50C5F2E0226DBC9B0004276A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50C5F2E1226DBC9B0004276A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50C5F2E6226DBC9B0004276A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		50C5F2E7226DBC9B0004276A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50C5F2E9226DBC9B0004276A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F6A040AE9435BE6FAEE0F6D /* Pods-SSKLine.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5XNDF727Y6;
+				INFOPLIST_FILE = SSKLine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shangshuai.SSKLine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50C5F2EA226DBC9B0004276A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77AC1013AC1E35788D9276D2 /* Pods-SSKLine.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5XNDF727Y6;
+				INFOPLIST_FILE = SSKLine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shangshuai.SSKLine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50C5F2CD226DBC9A0004276A /* Build configuration list for PBXProject "SSKLine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50C5F2E6226DBC9B0004276A /* Debug */,
+				50C5F2E7226DBC9B0004276A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50C5F2E8226DBC9B0004276A /* Build configuration list for PBXNativeTarget "SSKLine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50C5F2E9226DBC9B0004276A /* Debug */,
+				50C5F2EA226DBC9B0004276A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50C5F2CA226DBC9A0004276A /* Project object */;
+}
